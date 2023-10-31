@@ -1,0 +1,126 @@
+body{
+  border: 10px soild lightgreen;
+  /* margin: 0px; */
+  padding-bottom: 40px;
+  background-image: url(bgimg.jpg);
+  background-repeat: no-repeat;
+
+}
+
+.h{
+    display: flex;
+    padding: 12px;
+}
+.h1{
+    background-color: black;
+    border: 6px solid red;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    width: 350px;
+    height: 98px;
+    padding: 29px 0px 2px 0px;
+
+    
+}
+.h2{
+    background-color: black;
+    border: 6px solid red;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+    left: -134px;
+    width: 420px;
+    height: 60px;
+    border-radius: 33px;
+    padding: 0px 1px 10px 93px;
+    position: relative;
+    top: 12px;
+    right: 34px;
+    display: flex;
+    align-items: end;
+text-align: center; 
+}
+
+.h3{
+    background-color: black;
+    text-align: center;
+    border: 6px solid red;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    width: 420px;
+    height: 146px;
+    border-radius: 43px;
+    padding: 16px 39px 0px 14px;
+    
+
+}
+
+.m{
+    display: flex;
+    column-gap: 255px;
+    margin-top: 40px;
+    padding: 4px 32px 0px 38px;
+}
+.m1{
+    width: 400px;
+    height: 400px;
+    /* color: darkgray; */
+    background-color: aqua;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    font-weight: bold;
+    border: 7px solid grey;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 3px 4px 5px;
+    position: relative;
+    top: 220px;
+}
+.content{
+    z-index: 1;
+    position: relative;
+    top: 125px;
+    font-size: 23px;
+
+}
+.m2{
+    border: 6px dashed red;
+    color: red;
+    text-align: center;
+    padding: 4px;
+    width: 410px;
+    height: 640px;
+}
+
+.last{
+    width: 450px;
+    height: 64px;
+    background-color: black;
+    border: 6px solid red;
+    color: white;
+    border-radius: 35px;
+    position: relative;
+    left: 358px;
+    top: 12px;
+    
+}
+.box1{
+width: 340px;
+height: 281px;
+background-color: aqua;
+border: 2px solid darkgreen;
+color: blue;
+text-align: center;
+border-radius: 38px;
+}
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 34px 34px;
+    padding: 16px 6px 23px 31px;
+}
